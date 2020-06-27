@@ -491,7 +491,7 @@
   (company-tooltip-annotation                (:foreground darktooth-bright_blue :background darktooth-dark1))
   (company-tooltip-common-selection          (:foreground darktooth-light0 :background darktooth-faded_blue))
   (company-tooltip-mouse                     (:foreground darktooth-dark0 :background darktooth-bright_blue))
-  (company-tooltip-selection                 (:foreground darktooth-light0 :background darktooth-faded_blue))
+  (company-tooltip-selection                 (:foreground darktooth-light0 :background darktooth-faded_blue :weight 'bold))
 
   ;; MODE SUPPORT: dired+
   (diredp-file-name                          (:foreground darktooth-light2 ))

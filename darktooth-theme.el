@@ -145,7 +145,7 @@
   (line-number                               (:foreground darktooth-dark4))
   (line-number-current-line                  (:foreground darktooth-light4 :background darktooth-dark1))
   (hl-line                                   (:background darktooth-dark_purple))
-  (region                                    (:background darktooth-mid_blue :distant-foreground darktooth-light0))
+  (region                                    (:background darktooth-dark_blue :distant-foreground darktooth-light0))
   (secondary-selection                       (:background darktooth-dark_blue))
   (cua-rectangle                             (:background darktooth-mid_blue))
   (header-line                               (:foreground darktooth-turquoise4 :background darktooth-dark0 :bold nil))

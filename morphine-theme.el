@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>, Gil Tomás <gil.tms@gmail.com>
 ;; URL: 
-;; Version: 0.1.0
+;; Version: 0.5.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 

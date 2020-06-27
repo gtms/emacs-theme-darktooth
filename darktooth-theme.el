@@ -580,11 +580,11 @@
   (hydra-face-teal                           (:foreground darktooth-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:foreground darktooth-light0 :background darktooth-faded_blue))
-  (ivy-minibuffer-match-face-1               (:background darktooth-dark1))
-  (ivy-minibuffer-match-face-2               (:background darktooth-dark2))
-  (ivy-minibuffer-match-face-3               (:background darktooth-faded_aqua))
-  (ivy-minibuffer-match-face-4               (:background darktooth-faded_purple))
+  (ivy-current-match                         (:foreground darktooth-light0 :background darktooth-faded_blue :weight 'bold))
+  (ivy-minibuffer-match-face-1               (:background darktooth-dark1 :foreground darktooth-light1 :weight 'bold))
+  (ivy-minibuffer-match-face-2               (:background darktooth-neutral_green :foreground darktooth-dark0 :weight 'bold))
+  (ivy-minibuffer-match-face-3               (:background darktooth-neutral_blue :foreground darktooth-dark0 :weight 'bold))
+  (ivy-minibuffer-match-face-4               (:background darktooth-neutral_aqua :foreground darktooth-dark0 :weight 'bold))
   (ivy-confirm-face                          (:foreground darktooth-bright_green))
   (ivy-match-required-face                   (:foreground darktooth-bright_red))
   (ivy-remote                                (:foreground darktooth-neutral_blue))

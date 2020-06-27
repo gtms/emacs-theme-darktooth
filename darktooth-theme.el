@@ -149,7 +149,7 @@
   (secondary-selection                       (:background darktooth-dark_blue))
   (cua-rectangle                             (:background darktooth-mid_blue))
   (header-line                               (:foreground darktooth-turquoise4 :background darktooth-dark0 :bold nil))
-  (minibuffer-prompt                         (:foreground darktooth-bright_cyan :background darktooth-dark0 :bold nil))
+  (minibuffer-prompt                         (:foreground darktooth-light0_hard :background darktooth-dark0 :bold t))
 
   ;; compilation messages (also used by several other modes)
   (compilation-info                          (:foreground darktooth-neutral_green))

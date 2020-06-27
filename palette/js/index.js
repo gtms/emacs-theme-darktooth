@@ -396,7 +396,7 @@ Vue.component('palette-group', {
 
 Vue.component('swatch', {
   props: ['content', 'isXterm', 'prefix'],
-  template: `<div class="darktooth-swatch">
+  template: `<div class="morphine-swatch">
                <div v-bind:class="cssClass">
                  <div class="content">{{unprefixed}}</div>
                  <div class="color-label">{{color}}</div>
@@ -407,7 +407,7 @@ Vue.component('swatch', {
 `,
   computed: {
     cssClass: function(){
-      return `darktooth-${this.content}${this.isXterm == "true" ? "-xterm" : ""}`;
+      return `morphine-${this.content}${this.isXterm == "true" ? "-xterm" : ""}`;
     },
     cssClassAfter: function(){
       return `${this.cssClass}-after`;

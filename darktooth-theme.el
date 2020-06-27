@@ -453,10 +453,10 @@
   (el-search-other-match                     (:background darktooth-dark_blue))
 
   ;; MODE SUPPORT: avy
-  (avy-lead-face-0                           (:foreground darktooth-bright_blue ))
-  (avy-lead-face-1                           (:foreground darktooth-bright_aqua ))
-  (avy-lead-face-2                           (:foreground darktooth-bright_purple ))
-  (avy-lead-face                             (:foreground darktooth-bright_red ))
+  (avy-lead-face-0                           (:foreground darktooth-bright_blue :weight 'bold :inverse-video t))
+  (avy-lead-face-1                           (:foreground darktooth-bright_aqua :weight 'bold :inverse-video t))
+  (avy-lead-face-2                           (:foreground darktooth-bright_purple :weight 'bold :inverse-video t))
+  (avy-lead-face                             (:foreground darktooth-bright_red :weight 'bold :inverse-video t))
   (avy-background-face                       (:foreground darktooth-dark3 ))
   (avy-goto-char-timer-face                  (:inherit 'highlight ))
 

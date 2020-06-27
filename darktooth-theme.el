@@ -159,14 +159,14 @@
   (warning                                   (:foreground darktooth-bright_yellow :bold t))
 
   ;; Built-in syntax
-  (font-lock-builtin-face                            (:foreground darktooth-bright_orange))
+  (font-lock-builtin-face                            (:foreground darktooth-muted_orange :weight 'bold))
   (font-lock-constant-face                           (:foreground darktooth-burlywood4))
-  (font-lock-comment-face                            (:foreground darktooth-dark4))
+  (font-lock-comment-face                            (:foreground darktooth-light4 :slant 'italic))
   (font-lock-function-name-face                      (:foreground darktooth-light4))
-  (font-lock-keyword-face                            (:foreground darktooth-sienna))
-  (font-lock-string-face                             (:foreground darktooth-darkslategray4))
+  (font-lock-keyword-face                            (:foreground darktooth-sienna :weight 'bold))
+  (font-lock-string-face                             (:foreground darktooth-lightblue4))
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
-  (font-lock-type-face                               (:foreground darktooth-lightblue4))
+  (font-lock-type-face                               (:foreground darktooth-lightblue4 :weight 'bold))
   (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
 
   ;; MODE SUPPORT: which-key

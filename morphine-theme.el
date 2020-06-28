@@ -165,6 +165,38 @@
   (font-lock-type-face                               (:foreground morphine-lightblue4 :weight 'bold))
   (font-lock-warning-face                            (:foreground morphine-neutral_red :bold t))
 
+  ;; MODE SUPPORT: dired
+  (dired-directory (:foreground morphine-neutral_yellow :weight 'bold))
+  (dired-marked (:background morphine-dark_aqua :foreground morphine-bright_aqua :weight 'bold))
+  (dired-flagged (:background morphine-dark_red :foreground morphine-bright_red :weight 'bold))
+
+  ;; MODE SUPPORT: diredfl
+  (diredfl-autofile-name (:background morphine-identifiers-1))
+  (diredfl-compressed-file-name (:foreground morphine-aquamarine4))
+  (diredfl-compressed-file-suffix (:foreground morphine-darkslategray4))
+  (diredfl-date-time (:foreground morphine-turquoise4))
+  (diredfl-deletion (:inherit 'dired-flagged))
+  (diredfl-deletion-file-name (:inherit 'dired-flagged))
+  (diredfl-dir-heading (:inherit 'font-lock-type-face))
+  (diredfl-dir-name (:inherit 'dired-directory))
+  (diredfl-dir-priv (:foreground morphine-faded_cyan :weight 'bold))
+  (diredfl-exec-priv (:foreground morphine-bright_purple  :weight 'bold))
+  (diredfl-executable-tag (:foreground morphine-bright_purple :weight 'bold))
+  (diredfl-file-name (:foreground morphine-white))
+  (diredfl-file-suffix (:foreground morphine-light3))
+  (diredfl-flag-mark (:inherit 'dired-marked))
+  (diredfl-flag-mark-line (:inherit 'dired-marked))
+  (diredfl-ignored-file-name (:foreground morphine-medium))
+  (diredfl-link-priv (:foreground morphine-faded_green :weight 'bold))
+  (diredfl-no-priv (:foreground morphine-medium))
+  (diredfl-number (:foreground morphine-bright_orange))
+  (diredfl-other-priv (:foreground morphine-identifiers-4))
+  (diredfl-rare-priv (:foreground morphine-identifiers-13))
+  (diredfl-read-priv (:foreground morphine-identifiers-7))
+  (diredfl-symlink (:foreground morphine-bright_blue :weight 'bold))
+  (diredfl-tagged-autofile-name (:foreground morphine-identifiers-15))
+  (diredfl-write-priv (:foreground morphine-identifiers-10))
+
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 

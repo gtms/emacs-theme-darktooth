@@ -614,14 +614,16 @@
   (hydra-face-teal                           (:foreground morphine-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
-  (ivy-minibuffer-match-face-1               (:background morphine-dark1 :foreground morphine-turquoise4 :weight 'bold))
-  (ivy-minibuffer-match-face-2               (:background morphine-neutral_green :foreground morphine-dark0 :weight 'bold))
-  (ivy-minibuffer-match-face-3               (:background morphine-neutral_blue :foreground morphine-dark0 :weight 'bold))
-  (ivy-minibuffer-match-face-4               (:background morphine-neutral_aqua :foreground morphine-dark0 :weight 'bold))
-  (ivy-confirm-face                          (:foreground morphine-bright_green))
-  (ivy-match-required-face                   (:foreground morphine-bright_red))
-  (ivy-remote                                (:foreground morphine-neutral_blue))
+  ;; (ivy-current-match           (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
+  (ivy-current-match           (:foreground morphine-dark0_soft :background morphine-light1 :weight 'bold))
+  (ivy-minibuffer-match-face-1 (:background morphine-dark0_soft))
+  (ivy-minibuffer-match-face-2 (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
+  (ivy-minibuffer-match-face-3 (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
+  (ivy-minibuffer-match-face-4 (:background morphine-dark_aqua :foreground morphine-bright_aqua :weight 'bold))
+  (ivy-confirm-face            (:foreground morphine-bright_green))
+  (ivy-match-required-face     (:foreground morphine-bright_red))
+  (ivy-remote                  (:foreground morphine-neutral_blue))
+  (ivy-virtual (:foreground morphine-neutral_blue))
 
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background morphine-mid_purple))

@@ -208,7 +208,15 @@
   (doom-modeline-bar-inactive (:background morphine-light4))
 
   ;; MODE SUPPORT: which-key
-  (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
+  (which-key-key-face                 (:foreground morphine-neutral_blue :weight 'bold))
+  (which-key-separator-face           (:foreground morphine-muted_blue))
+  (which-key-note-face                (:foreground morphine-muted_purple :weight 'bold))
+  (which-key-command-description-face (:foreground morphine-darkslategray4))
+  (which-key-map-description-face     (:foreground morphine-aquamarine4))
+  (which-key-special-key-face         (:foreground morphine-turquoise4))
+  (which-key-highlighted-command-face (:inherit 'font-lock-builtin-face))
+  (which-key-group-description-face   (:foreground morphine-neutral_cyan :weight 'bold))
+  (which-key-docstring-face           (:inherit 'font-lock-docstring-face))
 
   ;; MODE SUPPORT: which-func
   (which-func                                (:inherit 'font-lock-function-name-face))

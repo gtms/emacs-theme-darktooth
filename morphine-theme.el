@@ -625,7 +625,6 @@
   (hydra-face-teal                           (:foreground morphine-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  ;; (ivy-current-match           (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
   (ivy-current-match           (:foreground morphine-dark0_soft :background morphine-light1 :weight 'bold))
   (ivy-minibuffer-match-face-1 (:background morphine-dark0_soft))
   (ivy-minibuffer-match-face-2 (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
@@ -635,6 +634,14 @@
   (ivy-match-required-face     (:foreground morphine-bright_red))
   (ivy-remote                  (:foreground morphine-neutral_blue))
   (ivy-virtual (:foreground morphine-neutral_blue))
+  (ivy-highlight-face (:foreground morphine-faded_green :weight 'bold))
+
+  ;; MODE SUPPORT: swiper
+  (swiper-match-face-1 (:background morphine-dark0_soft :foreground morphine-medium))
+  (swiper-match-face-2 (:inherit 'ivy-minibuffer-match-face-2))
+  (swiper-match-face-3 (:inherit 'ivy-minibuffer-match-face-3))
+  (swiper-match-face-4 (:inherit 'ivy-minibuffer-match-face-4))
+  (swiper-line-face    (:foreground morphine-white :weight 'bold))
 
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background morphine-mid_purple))

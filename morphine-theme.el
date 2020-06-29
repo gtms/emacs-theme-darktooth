@@ -178,7 +178,7 @@
   (diredfl-deletion-file-name (:inherit 'dired-flagged))
   (diredfl-dir-heading (:inherit 'font-lock-type-face))
   (diredfl-dir-name (:inherit 'dired-directory))
-  (diredfl-dir-priv (:foreground morphine-faded_cyan :weight 'bold))
+  (diredfl-dir-priv (:foreground morphine-muted_cyan :weight 'bold))
   (diredfl-exec-priv (:foreground morphine-bright_purple  :weight 'bold))
   (diredfl-executable-tag (:foreground morphine-bright_purple :weight 'bold))
   (diredfl-file-name (:foreground morphine-white))

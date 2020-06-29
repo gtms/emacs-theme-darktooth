@@ -218,13 +218,13 @@
   (which-key-group-description-face   (:foreground morphine-neutral_cyan :weight 'bold))
   (which-key-docstring-face           (:inherit 'font-lock-docstring-face))
 
-  ;; MODE SUPPORT: which-func
-  (which-func                                (:inherit 'font-lock-function-name-face))
-
-  ;; MODE SUPPORT: elixir-mode
-  (elixir-atom-face                          (:foreground morphine-lightblue4))
-  (elixir-attribute-face                     (:foreground morphine-burlywood4))
-
+  ;; MODE SUPPORT: info
+  (info-menu-header (:inherit 'fixed-pitch))
+  (info-title-1 (:foreground morphine-white :weight 'semi-light :height 1.8))
+  (info-title-2 (:foreground morphine-white :weight 'semi-light :height 1.4))
+  (info-title-3 (:foreground morphine-white :weight 'semi-light :height 1.2))
+  (info-title-4 (:foreground morphine-white :weight 'semi-light :height 1.1))
+ 
   ;; MODE SUPPORT: man
   (Man-overstrike                            (:foreground morphine-bright_red :bold t))
   (Man-underline                             (:foreground morphine-bright_green :bold t))

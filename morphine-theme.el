@@ -196,6 +196,17 @@
   (diredfl-tagged-autofile-name (:foreground morphine-identifiers-15))
   (diredfl-write-priv (:foreground morphine-identifiers-10))
 
+  ;; MODE SUPPORT: doom-modeline
+  (doom-modeline-panel (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
+  (doom-modeline-buffer-file (:foreground morphine-white :weight 'bold))
+  (doom-modeline-buffer-path (:foreground morphine-neutral_yellow :weight 'bold))
+  (doom-modeline-project-dir (:inherit 'font-lock-string-face :weight 'bold))
+  (doom-modeline-project-parent-dir (:inherit 'font-lock-string-face :weight 'bold))
+  (doom-modeline-buffer-major-mode (:foreground morphine-muted_cyan :weight 'bold))
+  (doom-modeline-info (:foreground morphine-muted_purple :weight 'bold))
+  (doom-modeline-bar (:inherit 'highlight))
+  (doom-modeline-bar-inactive (:background morphine-light4))
+
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 

@@ -633,7 +633,7 @@
   (ivy-match-required-face     (:foreground morphine-bright_red))
   (ivy-remote                  (:foreground morphine-neutral_blue))
   (ivy-virtual (:foreground morphine-neutral_blue))
-  (ivy-highlight-face (:foreground morphine-faded_green :weight 'bold))
+  (ivy-highlight-face (:foreground morphine-aquamarine4 :weight 'bold))
 
   ;; MODE SUPPORT: swiper
   (swiper-match-face-1 (:background morphine-dark0_soft :foreground morphine-medium))

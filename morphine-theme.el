@@ -477,12 +477,12 @@
   (sml/position-percentage                   (:foreground morphine-faded_aqua))
 
   ;; Matches and Isearch
-  (lazy-highlight                            (:foreground morphine-bright_cyan :background morphine-dark_cyan :weight 'bold))
-  (highlight                                 (:foreground morphine-light0_hard :background morphine-faded_blue))
+  (lazy-highlight                            (:foreground morphine-faded_cyan :background morphine-dark_cyan :weight 'bold))
+  (highlight                                 (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
   (match                                     (:foreground morphine-light0 :background morphine-dark2))
 
   ;; MODE SUPPORT: isearch
-  (isearch                                   (:inherit 'lazy-highlight))
+  (isearch                                   (:foreground morphine-bright_cyan :background morphine-dark_cyan :weight 'bold))
   (isearch-fail                              (:foreground morphine-light0_hard :background morphine-faded_red))
 
   ;; MODE SUPPORT: show-paren

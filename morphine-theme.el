@@ -219,7 +219,7 @@
   (which-key-special-key-face         (:foreground morphine-turquoise4))
   (which-key-highlighted-command-face (:inherit 'font-lock-builtin-face))
   (which-key-group-description-face   (:foreground morphine-neutral_cyan :weight 'bold))
-  (which-key-docstring-face           (:inherit 'font-lock-docstring-face))
+  (which-key-docstring-face           (:inherit 'font-lock-doc-face :foreground morphine-muted_blue))
 
   ;; MODE SUPPORT: info
   (info-menu-header (:inherit 'fixed-pitch))

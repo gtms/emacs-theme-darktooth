@@ -164,6 +164,9 @@
   (font-lock-type-face          (:foreground morphine-lightblue4 :weight 'bold))
   (font-lock-warning-face       (:foreground morphine-neutral_red :bold t))
 
+  ;; Tooltip
+  (tooltip (:background morphine-light2 :foreground morphine-dark1))
+
   ;; MODE SUPPORT: dired
   (dired-directory (:foreground morphine-neutral_yellow :weight 'bold))
   (dired-marked (:background morphine-dark_aqua :foreground morphine-bright_aqua :weight 'bold))

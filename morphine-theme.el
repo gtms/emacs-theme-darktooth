@@ -245,16 +245,16 @@
   (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
 
   ;; MODE SUPPORT: whitespace-mode
-  (whitespace-space                          (:foreground morphine-dark4 :background morphine-dark0))
-  (whitespace-hspace                         (:foreground morphine-dark4 :background morphine-dark0))
-  (whitespace-tab                            (:foreground morphine-dark4 :background morphine-dark0))
-  (whitespace-newline                        (:foreground morphine-dark4 :background morphine-dark0))
-  (whitespace-trailing                       (:foreground morphine-neutral_red :background morphine-dark1))
-  (whitespace-line                           (:foreground morphine-neutral_red :background morphine-dark1))
-  (whitespace-space-before-tab               (:foreground morphine-dark4 :background morphine-dark0))
-  (whitespace-indentation                    (:foreground morphine-dark4 :background morphine-dark0))
+  (whitespace-space                          (:foreground morphine-dark1 :background morphine-dark0))
+  (whitespace-hspace                         (:foreground morphine-dark1 :background morphine-dark0))
+  (whitespace-tab                            (:foreground morphine-dark1 :background morphine-dark0))
+  (whitespace-newline                        (:foreground morphine-dark1 :background morphine-dark0))
+  (whitespace-trailing                       (:foreground morphine-neutral_red :background morphine-dark_red))
+  (whitespace-line                           (:foreground morphine-neutral_red :background morphine-dark_red))
+  (whitespace-space-before-tab               (:foreground morphine-dark1 :background morphine-dark0))
+  (whitespace-indentation                    (:foreground morphine-dark1 :background morphine-dark0))
   (whitespace-empty                          (:foreground nil :background nil))
-  (whitespace-space-after-tab                (:foreground morphine-dark4 :background morphine-dark0))
+  (whitespace-space-after-tab                (:foreground morphine-dark1 :background morphine-dark0))
 
   ;; MODE SUPPORT: rainbow-delimiters
   (rainbow-delimiters-depth-1-face           (:foreground morphine-delimiter-one))

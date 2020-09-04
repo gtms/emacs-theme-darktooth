@@ -855,75 +855,7 @@
   (erc-pal-face                              (:foreground morphine-neutral_yellow :weight 'bold))
   (erc-keyword-face                          (:foreground morphine-bright_orange :weight 'bold))
   (erc-nick-default-face                     (:weight 'bold))
-  (erc-button                                (:weight 'bold  :underline t))
-
-  ))
-
-(defun morphine-modeline-one ()
-  "Optional modeline style one for morphine."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'morphine-modeline-two-active :foreground)
-                      :background (face-attribute 'morphine-modeline-two-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-two-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'morphine-modeline-two-inactive :foreground)
-                      :background (face-attribute 'morphine-modeline-two-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-two-inactive :background) :style nil)))
-
-(defun morphine-modeline-two ()
-  "Optional modeline style two for morphine."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'morphine-modeline-one-active :foreground)
-                      :background (face-attribute 'morphine-modeline-one-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-one-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'morphine-modeline-one-inactive :foreground)
-                      :background (face-attribute 'morphine-modeline-one-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-one-inactive :background) :style nil)))
-
-(defun morphine-modeline-three ()
-  "Optional modeline style three for morphine."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'morphine-modeline-three-active :foreground)
-                      :background (face-attribute 'morphine-modeline-three-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-three-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'morphine-modeline-three-inactive :foreground)
-                      :background (face-attribute 'morphine-modeline-three-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-three-inactive :background) :style nil)))
-
-(defun morphine-modeline-four ()
-  "Optional modeline style four for morphine."
-  (interactive)
-  (set-face-attribute 'mode-line nil
-                      :foreground (face-attribute 'morphine-modeline-four-active :foreground)
-                      :background (face-attribute 'morphine-modeline-four-active :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-four-active :background) :style nil))
-  (set-face-attribute 'mode-line-inactive nil
-                      :foreground (face-attribute 'morphine-modeline-four-inactive :foreground)
-                      :background (face-attribute 'morphine-modeline-four-inactive :background)
-                      :height 120
-                      :inverse-video nil
-                      :box `(:line-width 6 :color ,(face-attribute 'morphine-modeline-four-inactive :background) :style nil)))
-
-(defalias 'morphine-modeline 'morphine-modeline-one)
+  (erc-button                                (:weight 'bold  :underline t))))
 
 ;;;###autoload
 (and load-file-name

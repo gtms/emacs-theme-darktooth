@@ -1016,8 +1016,5 @@
 
 (provide-theme 'morphine)
 
-;; Local Variables:
-;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
 ;; End:
-
 ;;; morphine-theme.el ends here

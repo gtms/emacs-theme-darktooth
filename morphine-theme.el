@@ -481,7 +481,7 @@
 
   ;; Matches and Isearch
   (lazy-highlight                            (:foreground morphine-faded_cyan :background morphine-dark_cyan :weight 'bold))
-  (highlight                                 (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
+  (highlight                                 (:background morphine-darkslategray4 :foreground morphine-dark_blue))
   (match                                     (:foreground morphine-light0 :background morphine-dark2))
 
   ;; MODE SUPPORT: isearch

@@ -505,10 +505,10 @@
   (el-search-other-match                     (:background morphine-dark_blue))
 
   ;; MODE SUPPORT: avy
-  (avy-lead-face-0          (:foreground morphine-bright_blue :weight 'bold :inverse-video t))
-  (avy-lead-face-1          (:foreground morphine-bright_aqua :weight 'bold :inverse-video t))
-  (avy-lead-face-2          (:foreground morphine-bright_purple :weight 'bold :inverse-video t))
-  (avy-lead-face            (:foreground morphine-bright_red :weight 'bold :inverse-video t))
+  (avy-lead-face-0          (:foreground morphine-faded_green :weight 'bold :inverse-video t))
+  (avy-lead-face-1          (:foreground morphine-lightblue4 :weight 'bold :inverse-video t))
+  (avy-lead-face-2          (:foreground morphine-darkslategray4 :weight 'bold :inverse-video t))
+  (avy-lead-face            (:foreground morphine-turquoise4 :weight 'bold :inverse-video t))
   (avy-background-face      (:foreground morphine-dark3 ))
   (avy-goto-char-timer-face (:inherit 'highlight ))
   (aw-leading-char-face     (:foreground morphine-sienna  :weight 'bold :height 1.4))

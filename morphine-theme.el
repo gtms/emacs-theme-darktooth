@@ -489,8 +489,8 @@
   (isearch-fail                              (:foreground morphine-light0_hard :background morphine-faded_red))
 
   ;; MODE SUPPORT: show-paren
-  (show-paren-match                          (:foreground morphine-light0 :background morphine-faded_blue))
-  (show-paren-mismatch                       (:foreground morphine-light0_hard :background morphine-faded_red))
+  (show-paren-match                          (:inherit 'highlight))
+  (show-paren-mismatch                       (:inherit 'show-paren-match :background morphine-sienna))
 
   ;; MODE SUPPORT: anzu
   (anzu-mode-line                            (:foreground morphine-light0 :height 100 :background morphine-faded_blue))

@@ -141,7 +141,7 @@
   (hl-line                  (:background morphine-dark0_soft))
   (region                   (:background morphine-mid_blue :foreground morphine-burlywood4))
   (secondary-selection      (:background morphine-dark_blue :foreground morphine-burlywood4))
-  (cua-rectangle            (:background morphine-mid_blue))
+  (cua-rectangle            (:inherit 'region))
   (header-line              (:foreground morphine-turquoise4 :background morphine-dark0 :bold nil))
   (minibuffer-prompt        (:foreground morphine-white :background morphine-dark0 :bold t))
 

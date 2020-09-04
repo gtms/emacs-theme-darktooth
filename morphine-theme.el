@@ -130,9 +130,9 @@
 
  ((default                  (:foreground morphine-light0 :background morphine-dark0))
   (cursor                   (:background morphine-white))
-  (link                     (:foreground morphine-bright_blue :underline t :weight 'bold))
+  (link                     (:foreground morphine-bright_blue :underline t))
   (link-visited             (:foreground morphine-faded_blue))
-  (shadow                   (:background morphine-dark_aqua :foreground morphine-burlywood4))
+  (shadow                   (:background morphine-dark0_soft :foreground morphine-burlywood4))
   (mode-line                (:background morphine-black :foreground morphine-aquamarine4))
   (mode-line-inactive       (:foreground morphine-dark3 :background morphine-dark0_soft :box nil))
   (fringe                   (:background morphine-dark0))

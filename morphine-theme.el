@@ -61,7 +61,7 @@
   (morphine-muted_yellow    "#A87933" "#af8700")
   (morphine-dark_yellow     "#4D3B27" "#5f5f00")
 
-  (morphine-bright_green    "#B8BB26" "#afaf00")
+  (morphine-bright_green    "#8DA622" "#AFAF00")
   (morphine-faded_green     "#79740E" "#878700")
   (morphine-muted_green     "#556C21" "#878700")
   (morphine-dark_green      "#232B0F" "#005f00")

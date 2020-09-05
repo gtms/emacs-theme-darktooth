@@ -138,6 +138,7 @@
   (warning                                   (:foreground morphine-faded_yellow :bold t))
 
   ;; Built-in syntax
+  (font-lock-builtin-face       (:foreground morphine-muted_orange :weight 'bold))
   (font-lock-constant-face      (:foreground morphine-darkslategray4))
   (font-lock-comment-face       (:foreground morphine-light4 :slant 'italic))
   (font-lock-doc-face           (:inherit 'font-lock-string-face :slant 'italic))

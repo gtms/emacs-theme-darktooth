@@ -131,10 +131,10 @@
   (minibuffer-prompt        (:foreground morphine-white :background morphine-dark0 :bold t))
 
   ;; compilation messages (also used by several other modes)
-  (compilation-info                          (:foreground morphine-bright_green))
-  (compilation-mode-line-fail                (:foreground morphine-bright_red))
-  (error                                     (:foreground morphine-bright_red :bold t))
-  (success                                   (:foreground morphine-bright_green :bold t))
+  (compilation-info                          (:foreground morphine-muted_green))
+  (compilation-mode-line-fail                (:foreground morphine-muted_red))
+  (error                                     (:foreground morphine-muted_red :bold t))
+  (success                                   (:foreground morphine-muted_green :bold t))
   (warning                                   (:foreground morphine-faded_yellow :bold t))
 
   ;; Built-in syntax

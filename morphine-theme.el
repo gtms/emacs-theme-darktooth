@@ -71,7 +71,7 @@
   (morphine-muted_aqua      "#506E59" "#5f8787")
   (morphine-dark_aqua       "#36473A" "#005f5f")
 
-  (morphine-bright_blue     "#83A598" "#87afaf")
+  (morphine-bright_blue     "#83A1A5" "#87afaf")
   (morphine-faded_blue      "#076678" "#005f87")
   (morphine-muted_blue      "#1B5C6B" "#005f87")
   (morphine-dark_blue       "#2B3C44" "#00005f")

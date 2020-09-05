@@ -140,14 +140,12 @@
   ;; Built-in syntax
   (font-lock-builtin-face       (:foreground morphine-muted_orange :weight 'bold))
   (font-lock-constant-face      (:foreground morphine-darkslategray4))
-  (font-lock-comment-face       (:foreground morphine-light4 :slant 'italic))
+  (font-lock-comment-face       (:foreground morphine-lightblue4 :slant 'italic))
   (font-lock-doc-face           (:inherit 'font-lock-string-face :slant 'italic))
   (font-lock-function-name-face (:foreground morphine-turquoise4))
   (font-lock-keyword-face       (:foreground morphine-sienna :weight 'bold))
-  (font-lock-string-face        (:foreground morphine-lightblue4))
+  (font-lock-string-face        (:foreground morphine-bright_blue))
   (font-lock-variable-name-face (:foreground morphine-aquamarine4))
-  ;; (font-lock-type-face          (:foreground morphine-delimiter-two :weight 'bold))
-  ;; (font-lock-type-face          (:foreground morphine-muted_purple :weight 'bold))
   (font-lock-type-face          (:foreground morphine-burlywood4 :weight 'bold))
   (font-lock-warning-face       (:foreground morphine-bright_red :bold t))
 
@@ -156,7 +154,7 @@
 
   ;; MODE SUPPORT: dired
   (dired-directory (:foreground morphine-bright_yellow :weight 'bold))
-  (dired-marked (:background morphine-dark_aqua :foreground morphine-bright_aqua :weight 'bold))
+  (dired-marked (:background morphine-dark_blue :foreground morphine-bright_blue :weight 'bold))
   (dired-flagged (:background morphine-dark_red :foreground morphine-bright_red :weight 'bold))
 
   ;; MODE SUPPORT: diredfl

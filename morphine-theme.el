@@ -1,9 +1,9 @@
-;;; morphine-theme.el --- A fork from darktooth-theme, a muted dark Emacs theme    
+;;; morphine-theme.el --- A fork from darktooth-theme, a muted dark Emacs theme
 
 ;; Copyright (c) 2015-2020 Jason Milkins & Gil Tomás (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>, Gil Tomás <gil.tms@gmail.com>
-;; URL: 
+;; URL:
 ;; Version: 0.5.0
 
 ;; Package-Requires: ((autothemer "0.2"))
@@ -42,58 +42,59 @@
   (morphine-light4          "#A89984" "#949494")
 
   (morphine-bright_purple   "#D3869B" "#d787af")
-  (morphine-bright_red      "#FB4933" "#d75f5f")
-  (morphine-bright_orange   "#FE8019" "#ff8700")
-  (morphine-bright_yellow   "#FABD2F" "#ffaf00")
-  (morphine-bright_green    "#B8BB26" "#afaf00")
-  (morphine-bright_aqua     "#8EC07C" "#87af87")
-  (morphine-bright_blue     "#83A598" "#87afaf")
-  (morphine-bright_cyan     "#3FD7E5" "#00d7ff")
-
-  ;; neutral, no 256-color code, requested, nice work-around meanwhile
   (morphine-neutral_purple  "#D3869B" "#D787AF")
-  (morphine-neutral_red     "#FB4934" "#D75F5F")
-  (morphine-neutral_orange  "#FE8019" "#FF8700")
-  (morphine-neutral_yellow  "#FABD2F" "#FFAF00")
-  (morphine-neutral_green   "#B8BB26" "#73AF00")
-  (morphine-neutral_aqua    "#8EC07C" "#87AF87")
-  (morphine-neutral_blue    "#83A598" "#87AFAF")
-  (morphine-neutral_cyan    "#17CCD5" "#17CCD5")
-
   (morphine-faded_purple    "#8F3F71" "#875f87")
-  (morphine-faded_red       "#9D0006" "#870000")
-  (morphine-faded_orange    "#AF3A03" "#af5f00")
-  (morphine-faded_yellow    "#B57614" "#af8700")
-  (morphine-faded_green     "#79740E" "#878700")
-  (morphine-faded_aqua      "#427B58" "#5f8787")
-  (morphine-faded_blue      "#076678" "#005f87")
-  (morphine-faded_cyan      "#00A7AF" "#00afaf")
-
   (morphine-muted_purple    "#82526E" "#875f87")
-  (morphine-muted_red       "#901A1E" "#870000")
-  (morphine-muted_orange    "#A24921" "#af5f00")
-  (morphine-muted_yellow    "#A87933" "#af8700")
-  (morphine-muted_green     "#556C21" "#878700")
-  (morphine-muted_aqua      "#506E59" "#5f8787")
-  (morphine-muted_blue      "#1B5C6B" "#005f87")
-  (morphine-muted_cyan      "#18A7AF" "#00afaf")
-
   (morphine-dark_purple     "#4E3D45" "#5f00af")
-  (morphine-dark_red        "#421E1E" "#5f0000")
-  (morphine-dark_orange     "#613620" "#af5f00")
-  (morphine-dark_yellow     "#4D3B27" "#5f5f00")
-  (morphine-dark_green      "#232B0F" "#005f00")
-  (morphine-dark_aqua       "#36473A" "#005f5f")
-  (morphine-dark_blue       "#2B3C44" "#00005f")
-  (morphine-dark_cyan       "#205161" "#005f87")
-
   (morphine-mid_purple      "#4C3B43" "#5f00af")
+
+  (morphine-bright_red      "#FB4933" "#d75f5f")
+  (morphine-neutral_red     "#FB4934" "#D75F5F")
+  (morphine-faded_red       "#9D0006" "#870000")
+  (morphine-muted_red       "#901A1E" "#870000")
+  (morphine-dark_red        "#421E1E" "#5f0000")
   (morphine-mid_red         "#3F1B1B" "#5f0000")
+
+  (morphine-bright_orange   "#FE8019" "#ff8700")
+  (morphine-neutral_orange  "#FE8019" "#FF8700")
+  (morphine-faded_orange    "#AF3A03" "#af5f00")
+  (morphine-muted_orange    "#A24921" "#af5f00")
+  (morphine-dark_orange     "#613620" "#af5f00")
   (morphine-mid_orange      "#603000" "#af5f00")
+
+  (morphine-bright_yellow   "#FABD2F" "#ffaf00")
+  (morphine-neutral_yellow  "#FABD2F" "#FFAF00")
+  (morphine-faded_yellow    "#B57614" "#af8700")
+  (morphine-muted_yellow    "#A87933" "#af8700")
+  (morphine-dark_yellow     "#4D3B27" "#5f5f00")
   (morphine-mid_yellow      "#4C3A25" "#5f5f00")
+
+  (morphine-bright_green    "#B8BB26" "#afaf00")
+  (morphine-neutral_green   "#B8BB26" "#73AF00")
+  (morphine-faded_green     "#79740E" "#878700")
+  (morphine-muted_green     "#556C21" "#878700")
+  (morphine-dark_green      "#232B0F" "#005f00")
   (morphine-mid_green       "#1F321C" "#005f00")
+
+  (morphine-bright_aqua     "#8EC07C" "#87af87")
+  (morphine-neutral_aqua    "#8EC07C" "#87AF87")
+  (morphine-faded_aqua      "#427B58" "#5f8787")
+  (morphine-muted_aqua      "#506E59" "#5f8787")
+  (morphine-dark_aqua       "#36473A" "#005f5f")
   (morphine-mid_aqua        "#394C3D" "#005f5f")
+
+  (morphine-bright_blue     "#83A598" "#87afaf")
+  (morphine-neutral_blue    "#83A598" "#87AFAF")
+  (morphine-faded_blue      "#076678" "#005f87")
+  (morphine-muted_blue      "#1B5C6B" "#005f87")
+  (morphine-dark_blue       "#2B3C44" "#00005f")
   (morphine-mid_blue        "#30434C" "#00005f")
+
+  (morphine-bright_cyan     "#3FD7E5" "#00d7ff")
+  (morphine-neutral_cyan    "#17CCD5" "#17CCD5")
+  (morphine-faded_cyan      "#00A7AF" "#00afaf")
+  (morphine-muted_cyan      "#18A7AF" "#00afaf")
+  (morphine-dark_cyan       "#205161" "#005f87")
   (morphine-mid_cyan        "#005560" "#005f87")
 
   (morphine-delimiter-one   "#5C7E81" "#5f8787")
@@ -153,7 +154,6 @@
   (warning                                   (:foreground morphine-faded_yellow :bold t))
 
   ;; Built-in syntax
-  (font-lock-builtin-face       (:foreground morphine-muted_orange :weight 'bold))
   (font-lock-constant-face      (:foreground morphine-darkslategray4))
   (font-lock-comment-face       (:foreground morphine-light4 :slant 'italic))
   (font-lock-doc-face           (:inherit 'font-lock-string-face :slant 'italic))
@@ -202,7 +202,6 @@
   (diredfl-write-priv             (:foreground morphine-identifiers-10))
 
   ;; MODE SUPPORT: doom-modeline
-  (doom-modeline-panel              (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
   (doom-modeline-buffer-file        (:foreground morphine-white :weight 'bold))
   (doom-modeline-buffer-path        (:foreground morphine-neutral_yellow :weight 'bold))
   (doom-modeline-project-dir        (:inherit 'font-lock-string-face :weight 'bold))
@@ -230,7 +229,7 @@
   (info-title-2 (:foreground morphine-white :weight 'semi-light :height 1.4))
   (info-title-3 (:foreground morphine-white :weight 'semi-light :height 1.2))
   (info-title-4 (:foreground morphine-white :weight 'semi-light :height 1.1))
- 
+
   ;; MODE SUPPORT: man
   (Man-overstrike                            (:foreground morphine-bright_red :bold t))
   (Man-underline                             (:foreground morphine-bright_green :bold t))

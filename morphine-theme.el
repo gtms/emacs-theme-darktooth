@@ -185,6 +185,7 @@
   (diredfl-write-priv             (:foreground morphine-identifiers-10))
 
   ;; MODE SUPPORT: doom-modeline
+  (doom-modeline-panel              (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
   (doom-modeline-buffer-file        (:foreground morphine-white :weight 'bold))
   (doom-modeline-buffer-path        (:foreground morphine-bright_yellow :weight 'bold))
   (doom-modeline-project-dir        (:inherit 'font-lock-string-face :weight 'bold))

@@ -66,7 +66,7 @@
   (morphine-muted_green     "#556C21" "#878700")
   (morphine-dark_green      "#232B0F" "#005f00")
 
-  (morphine-bright_aqua     "#8EC07C" "#87af87")
+  (morphine-bright_aqua     "#64BEA5" "#87af87")
   (morphine-faded_aqua      "#427B58" "#5f8787")
   (morphine-muted_aqua      "#506E59" "#5f8787")
   (morphine-dark_aqua       "#36473A" "#005f5f")

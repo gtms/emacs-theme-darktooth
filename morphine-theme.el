@@ -117,7 +117,7 @@
   (cursor                   (:background morphine-white))
   (link                     (:foreground morphine-bright_blue :underline t))
   (link-visited             (:foreground morphine-faded_blue))
-  (shadow                   (:background morphine-dark0_soft :foreground morphine-burlywood4))
+  (shadow                   (:foreground morphine-burlywood4 :background morphine-dark0_soft))
   (mode-line                (:background morphine-black :foreground morphine-aquamarine4))
   (mode-line-inactive       (:foreground morphine-dark3 :background morphine-dark0_soft :box nil))
   (fringe                   (:background morphine-dark0))
@@ -191,7 +191,6 @@
   (doom-modeline-project-parent-dir (:inherit 'font-lock-type-face :weight 'bold))
   (doom-modeline-buffer-major-mode  (:foreground morphine-muted_cyan :weight 'bold))
   (doom-modeline-info               (:foreground morphine-muted_purple :weight 'bold))
-  ;; (doom-modeline-bar                (:inherit 'highlight))
   (doom-modeline-bar                (:background morphine-faded_blue))
   (doom-modeline-bar-inactive       (:background morphine-light4))
 

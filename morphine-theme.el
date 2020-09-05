@@ -31,7 +31,7 @@
   (morphine-dark3           "#665C54" "#626262")
   (morphine-dark4           "#7C6F64" "#767676")
 
-  (morphine-medium          "#928374" "#8a8a8a") ;; or 244
+  (morphine-medium          "#928374" "#8a8a8a")
 
   (morphine-light0_hard     "#FFFFC8" "#ffffdf")
   (morphine-light0          "#FDF4C1" "#ffffaf")
@@ -77,7 +77,7 @@
   (morphine-dark_blue       "#2B3C44" "#00005f")
 
   (morphine-bright_cyan     "#3FD7E5" "#00d7ff")
-  (morphine-faded_cyan      "#17CCD5" "#00afaf")
+  (morphine-faded_cyan      "#00A7AF" "#00afaf")
   (morphine-muted_cyan      "#18A7AF" "#00afaf")
   (morphine-dark_cyan       "#205161" "#005f87")
 

@@ -92,7 +92,7 @@
 
   (morphine-bright_cyan     "#3FD7E5" "#00d7ff")
   (morphine-neutral_cyan    "#17CCD5" "#17CCD5")
-  (morphine-faded_cyan      "#00A7AF" "#00afaf")
+  (morphine-faded_cyan      "#17CCD5" "#00afaf")
   (morphine-muted_cyan      "#18A7AF" "#00afaf")
   (morphine-dark_cyan       "#205161" "#005f87")
   (morphine-mid_cyan        "#005560" "#005f87")

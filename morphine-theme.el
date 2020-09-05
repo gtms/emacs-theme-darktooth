@@ -216,12 +216,12 @@
   (info-title-4 (:foreground morphine-white :weight 'semi-light :height 1.1))
 
   ;; MODE SUPPORT: man
-  (Man-overstrike                            (:foreground morphine-bright_red :bold t))
-  (Man-underline                             (:foreground morphine-bright_green :bold t))
+  (Man-overstrike                            (:foreground morphine-faded_orange :bold t))
+  (Man-underline                             (:foreground morphine-faded_green :bold t))
 
   ;; MODE SUPPORT: woman
-  (woman-bold                               (:foreground morphine-bright_red :bold t))
-  (woman-italic                             (:foreground morphine-bright_green :bold t))
+  (woman-bold                               (:inherit 'Man-overstrike))
+  (woman-italic                             (:inherit 'Man-underline))
 
   ;; MODE SUPPORT: tldr
   (tldr-command-itself                       (:foreground morphine-bright_red :bold t))

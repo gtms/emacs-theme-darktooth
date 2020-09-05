@@ -494,7 +494,7 @@
   (avy-lead-face            (:foreground morphine-turquoise4 :weight 'bold :inverse-video t))
   (avy-background-face      (:foreground morphine-dark3 ))
   (avy-goto-char-timer-face (:inherit 'highlight ))
-  (aw-leading-char-face     (:foreground morphine-sienna  :weight 'bold :height 1.4))
+  (aw-leading-char-face     (:foreground morphine-sienna :weight 'bold))
 
   ;; MODE SUPPORT: popup
   (popup-face                                (:foreground morphine-light0 :background morphine-dark1))
@@ -617,8 +617,7 @@
   (hydra-face-teal                           (:foreground morphine-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  ;; (ivy-current-match           (:foreground morphine-dark0_soft :background morphine-light1 :weight 'bold))
-  (ivy-current-match           (:foreground morphine-white :background morphine-dark_blue :weight 'bold))
+  (ivy-current-match           (:foreground morphine-dark_blue :background morphine-lightblue4 :weight 'bold))
   (ivy-minibuffer-match-face-1 (:background morphine-dark0_soft :foreground morphine-medium))
   (ivy-minibuffer-match-face-2 (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
   (ivy-minibuffer-match-face-3 (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
@@ -634,9 +633,7 @@
   (swiper-match-face-2            (:inherit 'ivy-minibuffer-match-face-2))
   (swiper-match-face-3            (:inherit 'ivy-minibuffer-match-face-3))
   (swiper-match-face-4            (:inherit 'ivy-minibuffer-match-face-4))
-  ;; (swiper-line-face               (:background morphine-delimiter-one :foreground morphine-dark_blue))
-  ;; (swiper-line-face               (:inherit 'highlight))
-  (swiper-line-face               (:background morphine-dark_purple :foreground morphine-burlywood4))
+  (swiper-line-face               (:foreground morphine-dark_purple :background morphine-aquamarine4))
   (swiper-background-match-face-1 (:inherit 'swiper-match-face-1))
   (swiper-background-match-face-2 (:background morphine-dark_cyan :foreground morphine-faded_cyan :weight 'bold))
   (swiper-background-match-face-3 (:background morphine-dark_yellow :foreground morphine-faded_yellow :weight 'bold))

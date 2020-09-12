@@ -216,10 +216,10 @@
 
   ;; MODE SUPPORT: info
   (info-menu-header (:inherit 'fixed-pitch))
-  (info-title-1 (:foreground morphine-white :weight 'semi-light :height 1.8))
-  (info-title-2 (:foreground morphine-white :weight 'semi-light :height 1.4))
-  (info-title-3 (:foreground morphine-white :weight 'semi-light :height 1.2))
-  (info-title-4 (:foreground morphine-white :weight 'semi-light :height 1.1))
+  (info-title-1     (:foreground morphine-white :weight 'semi-light :height 1.8))
+  (info-title-2     (:foreground morphine-white :weight 'semi-light :height 1.4))
+  (info-title-3     (:foreground morphine-white :weight 'semi-light :height 1.2))
+  (info-title-4     (:foreground morphine-white :weight 'semi-light :height 1.1))
 
   ;; MODE SUPPORT: man
   (Man-overstrike                            (:foreground morphine-faded_orange :bold t))

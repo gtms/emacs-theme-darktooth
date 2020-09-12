@@ -530,14 +530,12 @@
 
   ;; MODE SUPPORT: company
   (company-tooltip                      (:background morphine-light2 :foreground morphine-dark1))
-  ;; (company-tooltip-selection         (:foreground morphine-light0 :background morphine-faded_blue :weight 'bold))
-  (company-tooltip-selection            (:inherit 'highlight :weight 'bold))
+  (company-tooltip-selection            (:foreground morphine-dark_blue :background morphine-darkslategray4 :weight 'bold))
   (company-tooltip-search               (:inherit 'company-preview-common))
   (company-tooltip-common               (:foreground morphine-dark1 :background morphine-light4 :weight 'bold))
   (company-tooltip-common-selection     (:inherit 'highlight :background morphine-delimiter-one :weight 'bold))
   (company-tooltip-annotation           (:foreground morphine-muted_red :background morphine-light2 :slant 'italic :weight 'bold))
-  ;; (company-tooltip-annotation-selection (:foreground morphine-light2 :background morphine-faded_blue :slant 'italic :weight 'bold))
-  (company-tooltip-annotation-selection (:inherit 'highlight :foreground morphine-light2 :slant 'italic :weight 'bold))
+  (company-tooltip-annotation-selection (:inherit 'company-tooltip-selection :foreground morphine-light2 :slant 'italic :weight 'bold))
   (company-scrollbar-fg                 (:background morphine-dark0_hard))
   (company-scrollbar-bg                 (:background morphine-dark2))
   (company-preview                      (:inherit 'company-preview-common))

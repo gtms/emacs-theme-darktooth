@@ -198,7 +198,7 @@
   (doom-modeline-buffer-path        (:foreground morphine-bright_yellow :weight 'bold))
   (doom-modeline-project-dir        (:inherit 'font-lock-string-face :weight 'bold))
   (doom-modeline-project-parent-dir (:inherit 'font-lock-type-face :weight 'bold))
-  (doom-modeline-buffer-major-mode  (:foreground morphine-faded_cyan :weight 'bold))
+  (doom-modeline-buffer-major-mode  (:foreground morphine-muted_cyan :weight 'bold))
   (doom-modeline-info               (:foreground morphine-muted_purple :weight 'bold))
   (doom-modeline-bar                (:background morphine-faded_blue))
   (doom-modeline-bar-inactive       (:background morphine-light4))

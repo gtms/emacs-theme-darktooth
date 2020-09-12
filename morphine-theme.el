@@ -636,6 +636,19 @@
   (swiper-background-match-face-3 (:background morphine-dark_yellow :foreground morphine-faded_yellow :weight 'bold))
   (swiper-background-match-face-4 (:background morphine-dark_aqua :foreground morphine-faded_aqua :weight 'bold))
 
+  ;; MODE SUPPORT: ess
+  (ess-function-call-face          (:inherit 'font-lock-function-name-face))
+  (ess-numbers-face                (:foreground morphine-soft_green))
+  (ess-operator-face               (:foreground morphine-soft_cyan))
+  (ess-%op%-face                   (:inherit 'ess-operator-face :weight 'bold))
+  (ess-assignment-face             (:foreground morphine-faded_purple :weight 'bold))
+  (ess-paren-face                  (:inherit 'highlight))
+  (ess-modifiers-face              (:foreground morphine-bright_green :weight 'bold))
+  (ess-constant-face               (:inherit 'font-lock-type-face))
+  (ess-matrix-face                 (:inherit 'font-lock-constant-face))
+  (ess-keyword-face                (:inherit 'font-lock-keyword-face))
+  (ess-r-control-flow-keyword-face (:inherit 'font-lock-keyword-face))
+
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background morphine-dark_purple))
   (smerge-lower                              (:background morphine-dark_blue))

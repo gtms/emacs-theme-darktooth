@@ -364,11 +364,11 @@
   (ripgrep-match-face                        (:inherit 'ag-match-face))
 
   ;; MODE SUPPORT: diff
-  (diff-changed                              (:foreground morphine-light1 :background nil))
-  (diff-added                                (:foreground morphine-bright_green :background nil))
-  (diff-refine-added                         (:foreground morphine-bright_green :background morphine-muted_green))
-  (diff-removed                              (:foreground morphine-bright_red :background nil))
-  (diff-refine-removed                       (:foreground morphine-bright_red :background morphine-muted_red))
+  (diff-changed                              (:foreground morphine-bright_red :background morphine-dark_red))
+  (diff-added                                (:foreground morphine-bright_aqua :background morphine-dark_aqua))
+  (diff-refine-added                         (:foreground morphine-bright_green :background morphine-dark_green))
+  (diff-removed                              (:foreground morphine-bright_purple :background morphine-dark_purple))
+  (diff-refine-removed                       (:foreground morphine-bright_orange :background morphine-dark_orange))
 
   ;; MODE SUPPORT: diff-indicator
   (diff-indicator-changed                    (:inherit 'diff-changed))

@@ -150,7 +150,7 @@
   (font-lock-constant-face      (:foreground morphine-darkslategray4))
   (font-lock-comment-face       (:foreground morphine-lightblue4 :slant 'italic))
   (font-lock-doc-face           (:inherit 'font-lock-string-face :slant 'italic))
-  (font-lock-function-name-face (:foreground morphine-turquoise4))
+  (font-lock-function-name-face (:foreground morphine-turquoise4 :weight 'bold))
   (font-lock-keyword-face       (:foreground morphine-sienna :weight 'bold))
   (font-lock-string-face        (:foreground morphine-bright_blue))
   (font-lock-variable-name-face (:foreground morphine-aquamarine4))

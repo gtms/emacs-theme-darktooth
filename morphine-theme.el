@@ -480,11 +480,11 @@
   (isearch-fail                              (:foreground morphine-light0_hard :background morphine-faded_red))
 
   ;; MODE SUPPORT: visual-regexp
-  (vr/group-0 (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
-  (vr/group-1 (:background morphine-dark_purple :foreground morphine-bright_purple :weight 'bold))
-  (vr/group-2 (:background morphine-dark_blue :foreground morphine-bright_blue :weight 'bold))
-  (vr/match-0 (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
-  (vr/match-1 (:background morphine-dark_green :foreground morphine-bright_green :weight 'bold))
+  (vr/group-0              (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
+  (vr/group-1              (:background morphine-dark_purple :foreground morphine-bright_purple :weight 'bold))
+  (vr/group-2              (:background morphine-dark_blue :foreground morphine-bright_blue :weight 'bold))
+  (vr/match-0              (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
+  (vr/match-1              (:background morphine-dark_green :foreground morphine-bright_green :weight 'bold))
   (vr/match-separator-face (:background morphine-dark0_soft :foreground morphine-medium))
 
   ;; MODE SUPPORT: show-paren

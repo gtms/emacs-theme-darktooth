@@ -472,24 +472,32 @@
 
   ;; Matches and Isearch
   (lazy-highlight                            (:foreground morphine-faded_cyan :background morphine-dark_cyan :weight 'bold))
-  (highlight                                 (:background morphine-darkslategray4 :foreground morphine-dark_blue))
+  (highlight                                 (:foreground morphine-dark_blue :background morphine-soft_blue))
   (match                                     (:foreground morphine-light0 :background morphine-dark2))
 
   ;; MODE SUPPORT: isearch
   (isearch                                   (:foreground morphine-bright_cyan :background morphine-dark_cyan :weight 'bold))
   (isearch-fail                              (:foreground morphine-light0_hard :background morphine-faded_red))
 
+  ;; MODE SUPPORT: visual-regexp
+  (vr/group-0 (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
+  (vr/group-1 (:background morphine-dark_purple :foreground morphine-bright_purple :weight 'bold))
+  (vr/group-2 (:background morphine-dark_blue :foreground morphine-bright_blue :weight 'bold))
+  (vr/match-0 (:background morphine-dark_cyan :foreground morphine-bright_cyan :weight 'bold))
+  (vr/match-1 (:background morphine-dark_green :foreground morphine-bright_green :weight 'bold))
+  (vr/match-separator-face (:background morphine-dark0_soft :foreground morphine-medium))
+
   ;; MODE SUPPORT: show-paren
   (show-paren-match                          (:inherit 'highlight))
   (show-paren-mismatch                       (:inherit 'show-paren-match :background morphine-sienna))
 
   ;; MODE SUPPORT: anzu
-  (anzu-mode-line                            (:foreground morphine-light0 :height 100 :background morphine-faded_blue))
-  (anzu-match-1                              (:foreground morphine-dark0 :background morphine-bright_green))
-  (anzu-match-2                              (:foreground morphine-dark0 :background morphine-bright_yellow))
-  (anzu-match-3                              (:foreground morphine-dark0 :background morphine-bright_cyan))
-  (anzu-replace-highlight                    (:background morphine-dark_aqua))
-  (anzu-replace-to                           (:background morphine-dark_cyan))
+  (anzu-mode-line         (:foreground morphine-bright_blue :background morphine-faded_blue))
+  (anzu-match-1           (:inherit 'swiper-match-face-2))
+  (anzu-match-2           (:inherit 'swiper-match-face-3))
+  (anzu-match-3           (:inherit 'swiper-match-face-4))
+  (anzu-replace-highlight (:foreground morphine-bright_cyan :background morphine-dark_cyan :weight 'bold))
+  (anzu-replace-to        (:foreground morphine-bright_orange :background morphine-dark_orange :weight 'bold))
 
   ;; MODE SUPPORT: el-search
   (el-search-match                           (:background morphine-dark_cyan))

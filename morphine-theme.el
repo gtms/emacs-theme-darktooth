@@ -473,7 +473,7 @@
   ;; Matches and Isearch
   (lazy-highlight                            (:foreground morphine-faded_cyan :background morphine-dark_cyan :weight 'bold))
   (highlight                                 (:foreground morphine-dark_blue :background morphine-soft_blue))
-  (match                                     (:foreground morphine-light0 :background morphine-dark2))
+  (match                                     (:inherit 'secondary-selection))
 
   ;; MODE SUPPORT: isearch
   (isearch                                   (:foreground morphine-bright_cyan :background morphine-dark_cyan :weight 'bold))
@@ -594,7 +594,7 @@
   (ivy-minibuffer-match-face-3    (:background morphine-dark_yellow :foreground morphine-bright_yellow :weight 'bold))
   (ivy-minibuffer-match-face-4    (:background morphine-dark_aqua :foreground morphine-bright_aqua :weight 'bold))
   (ivy-confirm-face               (:foreground morphine-bright_green))
-  (ivy-match-required-face        (:foreground morphine-faded_red))
+  (ivy-match-required-face        (:foreground morphine-bright_red :weight 'bold))
   (ivy-subdir                     (:inherit 'dired-directory))
   (ivy-org                        (:foreground morphine-soft_orange :weight 'bold))
   (ivy-modified-buffer            (:foreground morphine-soft_red :weight 'bold))

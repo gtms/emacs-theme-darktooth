@@ -620,8 +620,8 @@
   (counsel-outline-6 (:inherit 'org-level-6))
   (counsel-outline-7 (:inherit 'org-level-7))
   (counsel-outline-8 (:inherit 'org-level-8))
-  (counsel-application-name (:inherit 'font-lock-builtin-face))
-  (counsel-active-mode (:inherit 'font-lock-builtin-face))
+  (counsel-application-name (:inherit 'font-lock-function-name-face :weight 'bold))
+  (counsel-active-mode (:inherit 'font-lock-variable-name-face :weight 'bold))
   (counsel-key-binding (:foreground morphine-faded_yellow :weight 'bold))
   (counsel-variable-documentation (:inherit 'font-lock-comment-face))
 

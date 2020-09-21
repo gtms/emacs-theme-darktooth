@@ -133,7 +133,7 @@
   (line-number-current-line (:foreground morphine-dark0 :background morphine-light4 :weight 'bold))
   (hl-line                  (:background morphine-dark0_soft))
   (region                   (:background morphine-dark_blue :foreground morphine-burlywood4))
-  (secondary-selection      (:background morphine-dark_purple :foreground morphine-burlywood4))
+  (secondary-selection      (:foreground morphine-soft_aqua :background morphine-dark_aqua))
   (cua-rectangle            (:inherit 'region))
   (header-line              (:foreground morphine-bright_blue :background morphine-dark0 :bold 'bold))
   (minibuffer-prompt        (:foreground morphine-white :background morphine-dark0 :bold t))
